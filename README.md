@@ -12,4 +12,4 @@ This assumes you use GPIO26 (37) and Ground (39). I wired used a reset switch fr
 1. Scroll down to the end and paste in `sudo python /home/pi/soft_shutdown.py &` above "exit 0"
 1. Press [Ctrl]+[O] and the press [Enter] to Save
 1. Press [Ctrl]+[X] to Exit
-1. Type in `sudo reboot' and then press [Enter]
+1. Type in `sudo reboot` and then press [Enter]
