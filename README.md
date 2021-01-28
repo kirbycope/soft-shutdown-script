@@ -1,6 +1,6 @@
 # soft-shutdown-script
 ![Screenshot](/soft-shutdown.png)
-The purpose of this script is to react to a button press event. If it takes longer than two seconds to change from "pressed" to "released" then it will shutdown instead of rebooting.
+<br>The purpose of this script is to react to a button press event. If it takes longer than two seconds to change from "pressed" to "released" then it will shutdown instead of rebooting.
 
 ## Install the Button
 This assumes you use GPIO26 (37) and Ground (39). I wired used a reset switch from an old pc case but just about any momentary switch should do the job.
