@@ -1,5 +1,5 @@
 # soft-shutdown-script
-![Screenshot](/safe-shutdown.png)
+![Screenshot](/soft-shutdown.png)
 
 ## Install the Button
 This assumes you use GPIO26 (37) and Ground (39). I wired used a reset switch from an old pc case but just about any momentary switch should do the job.
