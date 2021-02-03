@@ -1,9 +1,9 @@
 # soft-shutdown-script
 ![Screenshot](/soft-shutdown.png)
-<br>The purpose of this script is to react to a button press event. If it takes longer than two seconds to change from "pressed" to "released" then it will shutdown instead of rebooting.
+<br>The purpose of this script is to react to a button press event. There is a timer that starts when the button changes to "Pressed". After "Released" the timer is stopped. If below 2 seconds the machine will reboot. If above two seconds the machine will shut down.
 
 ## Install the Button
-This assumes you use GPIO26 (37) and Ground (39). I wired used a reset switch from an old pc case but just about any momentary switch should do the job.
+This assumes you use GPIO26 (37) and Ground (39). I wired up a used reset button from an old pc case.
 
 ## Install the Script
 1. Open terminal
